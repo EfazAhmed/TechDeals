@@ -1,0 +1,78 @@
+.landingBg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/keyboard_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    min-width: none;
+}
+
+.title {
+    position: relative;
+    font-size: calc(70px + 1.5vw);
+    margin-top: 94.5px;
+    color: white;
+    font-weight: bold;
+    padding: 0px;
+    text-shadow: 10px 10px 10px black;
+}
+
+.slogan {
+    position: relative;
+    font-size: calc(10px + 1.5vw);
+    color: white;
+    font-weight: bold;
+    padding: '0px';
+    text-shadow: 10px 10px 10px black;
+}
+
+.downButton {
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    .landingBg {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-image: url('../assets/keyboard_bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        min-width: none;
+    }
+
+    .title {
+        position: relative;
+        font-size: 55px;
+        margin-top:-94.5px;
+        color: white;
+        font-weight: bold;
+        padding: 0px;
+        text-shadow: 10px 10px 10px black;
+    }
+
+    .slogan {
+        position: relative;
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+        padding: '0px';
+        text-shadow: 10px 10px 10px black;
+    }
+
+    .downButton {
+        display: none;
+    }
+}
